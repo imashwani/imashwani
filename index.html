@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashwani Prasad | Software Engineer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">Ashwani Prasad</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Ashwani Prasad</span></h1>
+                <h2>Software Engineer specializing in scalable systems</h2>
+                <p>Building fault-tolerant platforms with microservice architecture</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn primary-btn">Contact Me</a>
+                    <a href="#experience" class="btn secondary-btn">See My Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a software engineer with 4+ years of experience in designing and building scalable, 
+                    fault-tolerant platforms using micro-service architecture. I'm passionate about building 
+                    high-performance systems that can handle millions of users.</p>
+                    
+                    <p>My expertise includes developing microservices using Java, Spring Boot, and Google Guice, 
+                    with a focus on building financial technology platforms that process billions of transactions.</p>
+                    
+                    <p>I enjoy optimizing systems for better performance and cost efficiency while mentoring 
+                    junior engineers to build their technical skills.</p>
+                </div>
+                <div class="about-details">
+                    <div class="detail-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>ashwani.p30@gmail.com</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91-9911416637</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fab fa-linkedin"></i>
+                        <span><a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn Profile</a></span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Bangalore, India</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Software Engineer II</h3>
+                        <h4>CRED | Bangalore, IN</h4>
+                        <p class="timeline-date">Nov 2022–Present</p>
+                        <div class="timeline-description">
+                            <p><strong>Bankstack:</strong> Building digital banking platform that serves 10M+ users with diverse financial products like CC, BNPL, TL etc.</p>
+                            <ul>
+                                <li>Built microservices using Java, Google Guice DI and gRPC for low latency and high throughput.</li>
+                                <li>Built platform for BNPL (buy now, pay later) and term loans by collaborating with cross-functional teams.</li>
+                                <li>Designed and implemented the multi-tenant fee module that processes 4B+ transactions every month.</li>
+                                <li>Lead the development of processing repayment transactions async using CRON job, databricks & AWS SQS.</li>
+                                <li>Spearheaded 0 to 1 product called loan against securities, owning and delivering multiple features like create loan, foreclosure, interest accrual that serves 8M+ users.</li>
+                                <li>Analyzed and optimized CPU, memory, and JAVA_OPTS for multiple services, achieving 31% AWS ECS cost savings.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Software Engineer I</h3>
+                        <h4>CRED | Bangalore, IN</h4>
+                        <p class="timeline-date">July 2020–Nov 2022</p>
+                        <div class="timeline-description">
+                            <ul>
+                                <li>Used spring-boot microservice and velocity lib to build config-driven API response that serves 23K req/min.</li>
+                                <li>Migrated from SQL to DynamoDb schema for decoupling configs which improved reusability & extensibility.</li>
+                                <li>Designed and developed APIs for showcasing unbilled transactions of credit cards of the user.</li>
+                                <li>Used locust for load testing microservices for 10K req/sec and tweaked downstream API timeouts for critical flows.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>SDE Intern</h3>
+                        <h4>CRED | Bangalore, IN</h4>
+                        <p class="timeline-date">July 2020–Nov 2020</p>
+                        <div class="timeline-description">
+                            <ul>
+                                <li>Working with the Backend Team and using Spring Boot framework.</li>
+                                <li>Used resilence4j lib for circuit breaks to prevent cascading failures due to failure in downstream services.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Languages & Frameworks</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <span>Java</span>
+                            <div class="skill-level advanced"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Spring Boot</span>
+                            <div class="skill-level advanced"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Google Guice DI</span>
+                            <div class="skill-level advanced"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>C++</span>
+                            <div class="skill-level intermediate"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Python</span>
+                            <div class="skill-level intermediate"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Databases & Technologies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <span>MySQL</span>
+                            <div class="skill-level advanced"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>DynamoDB</span>
+                            <div class="skill-level advanced"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Kafka</span>
+                            <div class="skill-level intermediate"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>AWS SQS</span>
+                            <div class="skill-level intermediate"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>AWS S3</span>
+                            <div class="skill-level intermediate"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Other Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <span>API Designing</span>
+                            <div class="skill-level advanced"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Reliability</span>
+                            <div class="skill-level advanced"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Fault Tolerance</span>
+                            <div class="skill-level advanced"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Microservices</span>
+                            <div class="skill-level advanced"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>System Design</span>
+                            <div class="skill-level advanced"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Loan Against Securities Platform</h3>
+                        <p>Spearheaded the development of a 0-to-1 product that allows users to take loans against their securities. Implemented key features including loan creation, foreclosure, and interest accrual.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>Microservices</span>
+                            <span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Multi-tenant Fee Module</h3>
+                        <p>Designed and implemented a fee processing system capable of handling 4B+ transactions monthly across multiple tenant financial institutions.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>DynamoDB</span>
+                            <span>Scalability</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>BNPL & Term Loan Platform</h3>
+                        <p>Built a platform for Buy Now, Pay Later and term loans through cross-functional team collaboration, serving millions of users with flexible financing options.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>Google Guice</span>
+                            <span>gRPC</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>QEats Food Ordering Backend</h3>
+                        <p>Developed a distributed backend system for a food ordering platform using Java Spring Boot, MongoDB, and MVCS architecture with RESTful APIs.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>ashwani.p30@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+91-9911416637</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p><a href="https://linkedin.com/in/yourprofile" target="_blank">Connect with me</a></p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p>&copy; 2025 Ashwani Prasad. All rights reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:ashwani.p30@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
